@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let x = 30;
+      let y = 40;
+      let z = "30";
+
+      const compration1 = x == y;
+      console.log(compraation1);
+
+      const compration2 = x == z;
+      console.log(compraation2);
+
+      const compration3 = x === z;
+      console.log(compraation3);
+
+      const compration4 = x < "a"; //karşılaştırma yapılamıyor. false döndürüyor
+      console.log(compration4);
+
+      console.log(true && null);
+
+      console.log(false && null);
+
+      /*
+      == ile data türlerini kontrol etmeden karşılaştırma yapar. sadece veriyi karşılaştırır
+      === ile data türlerini ve değerleri kontrol ediyor
+
+      != ile data türlerini kontrol etmeden karşılaştırma yaptı.Sadece veriyi karşılaştırır
+      !== ile data türlerini ve değerleri kontrol ediyor
+
+      ****Büyük eşit küçük eşit işlemlerinde veri tipi kontorlü yapılmıyor.
+      */
+    </script>
+  </body>
+</html>

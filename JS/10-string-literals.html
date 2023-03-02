@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var name = "ali";
+
+      var kod = "";
+      kod += "x=12";
+      kod += "y=15";
+      /*
+      eski versiyonlarda multi line metin bu şekilde hazırlanırdı
+      var  kod="";
+      kod+="x=12";
+      kod+="y=15";
+      */
+
+      /*  var kod=`
+      x=12;
+      y=15;
+      `; 
+      Backtick ile atamalar multiline atamalar yapılabiliyor*/
+
+      console.log("merhaba " + name + " Nasılsın");
+      console.log(`merhaba ${name} Nasılsın`);
+    </script>
+  </body>
+</html>
